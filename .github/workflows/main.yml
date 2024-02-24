@@ -1,0 +1,27 @@
+name: cicd
+
+on:
+  schedule:
+    - cron:  '30 05 * * *'
+jobs:
+  cicd:
+    runs-on: [self-hosted, Linux, Ubuntu, x64]
+    strategy:
+      max-parallel: 1
+      matrix:
+        python-version: [python27, python38]
+
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v2
+        with:
+          ref: ${{ env.BASE_BRANCH }}
+          # ref: ${{ github.head_ref }}
+          submodules: recursive
+      - name: Set python path
+        id: path
+        run: echo "::set-output name=pythonv::/home/otg/${{matrix.python-version}}/bin/python"
+      - name: Parsing rst
+        run: |
+          rm -rf .env
+          ${{steps.path.outputs.pythonv}} do.py
