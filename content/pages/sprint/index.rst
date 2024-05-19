@@ -13,20 +13,17 @@ hosted by sciwork.
 Scisprint 2024
 ==============
 
-* `(Tentative) Scisprint 2024 June in Taipei
+* `Scisprint 2024 June in Taipei
   <{filename}2024/06-taipei.rst>`__
 
-* `(Tentative) Scisprint 2024 May in Hsinchu
+* `Scisprint 2024 May in Hsinchu
   <{filename}2024/05-hsinchu.rst>`__
 
-* `(Tentative) Scisprint 2024 April in Hsinchu
+* `Scisprint 2024 April in Hsinchu
   <{filename}2024/04-hsinchu.rst>`__
 
-* `(Tentative) Scisprint 2024 March in Taipei
+* `Scisprint 2024 March in Taipei
   <{filename}2024/03-taipei.rst>`__
-
-* `Seminar 2024 March in Kaohsiung
-  <{filename}2024/03-Kaohsiung.rst>`__
 
 * `Scisprint 2024 February in Hsinchu
   <{filename}2024/02-hsinchu.rst>`__

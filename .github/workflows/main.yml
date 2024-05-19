@@ -5,12 +5,17 @@ on:
 
 jobs:
   job1:
-    name: Debug
+    name: Event Generation 
     runs-on: ubuntu-latest
-
+    strategy:
+      matrix:
+        python-version: [3.8]
     steps:
     - name: Git checkout
       uses: actions/checkout@v2
       with: { ref: develop }
     - name: List files
       run: ls
+    - name: Run Event Handler
+      run: |
+        python do.py

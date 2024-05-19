@@ -9,6 +9,42 @@ meetup
 meetup 2024
 ==============
 
+* `Meetup 2024 May 29th at NYCU
+  <{filename}2024/0529-nycu.rst>`__
+
+* `Meetup 2024 May 22nd at NYCU
+  <{filename}2024/0522-nycu.rst>`__
+
+* `Meetup 2024 May 15th at NYCU
+  <{filename}2024/0515-nycu.rst>`__
+
+* `Meetup 2024 May 8th at NYCU
+  <{filename}2024/0508-nycu.rst>`__
+
+* `Meetup 2024 May 1st at NYCU
+  <{filename}2024/0501-nycu.rst>`__
+
+* `Meetup 2024 April 24th at NYCU
+  <{filename}2024/0424-nycu.rst>`__
+
+* `Meetup 2024 April 17th at NYCU
+  <{filename}2024/0417-nycu.rst>`__
+
+* `Meetup 2024 April 10th at NYCU
+  <{filename}2024/0410-nycu.rst>`__
+
+* `Meetup 2024 March 27th at NYCU
+  <{filename}2024/0327-nycu.rst>`__
+
+* `Meetup 2024 March 20th at NYCU
+  <{filename}2024/0320-nycu.rst>`__
+
+* `Meetup 2024 March 13th at NYCU
+  <{filename}2024/0313-nycu.rst>`__
+
+* `Meetup 2024 March 6th at NYCU
+  <{filename}2024/0306-nycu.rst>`__
+
 * `PyDoc Meetup 2024 March 10th at GoFreight Office
   <{filename}2024/0310-pydoc.rst>`__
 
