@@ -1,0 +1,26 @@
+Value EVENT_YEAR (\d\d\d\d)
+Value EVENT_MONTH (\S+)
+Value EVENT_DATE (\S+)
+Value EVENT_LOCATION (\S+)
+Value FILE_CREATE_DATE (\S+ \S+)
+Value FILE_URL (\S+)
+Value FILE_SAVE_AS (\S+)
+Value EVENT_START_TIME (\d+:\d+)
+Value EVENT_END_TIME (\d+:\d+)
+Value EVENT_DURATION (\d+ hours)
+Value SIGN_ON_METHOD ([a-zA-Z ]+)
+Value SIGN_ON_LINK (https://\S+)
+Value VENUE_CHINESE ([\S ]+)
+Value VENUE_ENGLISH ([\S ]+)
+Value VENUE_MAP_LINK (\S+)
+Value VENUE_MAP_EMBED (https://\S+)
+
+Start
+  ^Meetup ${EVENT_YEAR} ${EVENT_MONTH} ${EVENT_DATE} in ${EVENT_LOCATION}$$
+  ^:date: ${FILE_CREATE_DATE}$$
+  ^:url: ${FILE_URL}$$
+  ^:save_as: ${FILE_SAVE_AS}$$
+  ^\* Time: ${EVENT_START_TIME} -- ${EVENT_END_TIME} \(${EVENT_DURATION}\)$$
+  ^Please register on `${SIGN_ON_METHOD} <${SIGN_ON_LINK}>`__. $$
+  ^The meetup venue is at `${VENUE_CHINESE} \(${VENUE_ENGLISH}\) <${VENUE_MAP_LINK}>`__.$$
+  ^\s+<iframe src="${VENUE_MAP_EMBED}"$$
