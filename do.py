@@ -2,11 +2,15 @@ import click
 from workflowscript.meetupGenerator import ParsingModel
 
 SESH_TOKEN=""
+USER_ID=""
 @click.command()
 @click.option('-t', '--token', help='SESH Token')
-def meetup_handle(token):
+@click.option('-u', '--user', help='SESH UserID')
+def meetup_handle(token, user):
     SESH_TOKEN = token
-    print(f'SESH_TOKEN, { SESH_TOKEN or "stranger"}!')
+    USER_ID = user
+    print(f'SESH_TOKEN, {SESH_TOKEN}!')
+    print(f'USER_ID, {USER_ID}!')
     
     
     # get the template file path
