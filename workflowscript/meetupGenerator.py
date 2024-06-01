@@ -37,7 +37,7 @@ class ParsingModel:
         self.two_list_to_json()
         self.update_meetup_json()
         self.save_json()
-        return 
+        return self.result_json
 
     # self-defined function
     def check_rst_path(self):
