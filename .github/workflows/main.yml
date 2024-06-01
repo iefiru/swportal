@@ -22,4 +22,4 @@ jobs:
       run: echo ${{ secrets.SESH_TOKEN }}
     - name: Run Event Handler
       run: |
-        python do.py -t ${{ secrets.SESH_TOKEN }}
+        python do.py -t ${{ secrets.SESH_TOKEN }} -u ${{ secrets.USER_ID }}
