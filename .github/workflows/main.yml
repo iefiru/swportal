@@ -17,7 +17,7 @@ jobs:
     - name: List files
       run: ls
     - name: Install Python Package
-      run: python -m pip install textfsm
+      run: python -m pip install textfsm click
     - name: Show Token
       run: echo ${{ secrets.SESH_TOKEN }}
     - name: Run Event Handler
