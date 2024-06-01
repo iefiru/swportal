@@ -3,7 +3,7 @@ from workflowscript.meetupGenerator import ParsingModel
 
 SESH_TOKEN=""
 @click.command()
-@click.option('-t', '--token', 'SESH token', help='SESH Token')
+@click.option('-t', '--token', help='SESH Token')
 def meetup_handle(token):
     SESH_TOKEN = token
     print(f'SESH_TOKEN, { SESH_TOKEN or "stranger"}!')
