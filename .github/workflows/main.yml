@@ -19,7 +19,7 @@ jobs:
     - name: Install Python Package
       run: python -m pip install textfsm
     - name: Show Token
-      run: echo ${{ secrets.APISecret }}
+      run: echo ${{ secrets.SESH_TOKEN }}
     - name: Run Event Handler
       run: |
         python do.py
