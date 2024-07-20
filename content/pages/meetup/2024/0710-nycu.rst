@@ -1,15 +1,15 @@
 ========================================
-Meetup 2024 June 19th in NYCU
+Meetup 2024 July 10th in NYCU
 ========================================
 
-:date: 2024-05-30 22:45
-:url: meetup/2024/0619-nycu
-:save_as: meetup/2024/0619-nycu.html
+:date: 2024-06-30 23:08
+:url: meetup/2024/0710-nycu
+:save_as: meetup/2024/0710-nycu.html
 
 Date
 -----
 
-* Date: June 19th, 2024
+* Date: July 10th, 2024
 * Time: 18:30 -- 21:30 (3 hours)
 
 |
@@ -45,7 +45,7 @@ Action to create the PR.
 Prepare upcoming sciwork events
 ++++++++++++++++++++++++++++++++++++++++++++++++
 
-Additionally, we will discuss the following items to prepare `seminar summer 2024 <https://sciwork.dev/seminar/2024/06-seminar>`__
+Additionally, we will discuss the following items to prepare `July scisprint <https://sciwork.dev/sprint/2024/07-taipei>`__
 and the upcoming events.
 
 * Task arrangement for volunteers
@@ -57,7 +57,7 @@ Sign up
 ------------
 
 The meetup is free. 
-Please register on `discord event <https://discord.com/channels/730297880140578906/1007075707400237067/1250806708045877347>`__. 
+Please register on `discord event <https://discord.com/channels/730297880140578906/1007075707400237067/1259858398913237033>`__. 
 Click the green check mark to participate the meetup.
 
 If you are using the discord app, you can find current event in the `meetup channel <https://discordapp.com/channels/730297880140578906/1007075707400237067>`__. 
