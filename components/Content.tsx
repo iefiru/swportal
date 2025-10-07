@@ -1,22 +1,25 @@
 import { MDXRemote } from "next-mdx-remote/rsc";
 import path from "path/posix";
 import remarkGfm from "remark-gfm";
+import rehypeSlug from "rehype-slug";
 import constants from "@/configurations/constants";
 import AgendaTable from "@/components/AgendaTable";
 import Map from "@/components/Map";
 import TagIcon from "@/components/icons/TagIcon";
+import RegistrationButton from "@/components/RegistrationButton";
 import * as markdown from "@/utils/markdown";
 
 const components = {
   Map,
   AgendaTable,
   TagIcon,
+  RegistrationButton,
 };
 
 const options = {
   mdxOptions: {
     remarkPlugins: [remarkGfm],
-    rehypePlugins: [],
+    rehypePlugins: [rehypeSlug],
   },
 };
 
